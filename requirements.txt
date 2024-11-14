@@ -1,3 +1,4 @@
 aiogram
 telegram
 groq
+requests
