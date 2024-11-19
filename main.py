@@ -20,7 +20,7 @@ async def handle_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
     image_url = file.file_path  
     
     completion = client.chat.completions.create(
-        model="llama-3.2-11b-vision-preview",
+        model="llama-3.2-90b-vision-preview",
         messages=[
             {
                 "role": "user",
