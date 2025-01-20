@@ -1,7 +1,4 @@
-aiogram
-telegram
-groq
-requests
-python-telegram-bot
-dotenv
-supabase
+python-telegram-bot>=20.0,<21.0
+requests>=2.28.0
+python-dotenv>=0.21.0
+supabase>=0.2.0
