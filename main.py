@@ -131,7 +131,7 @@ async def handle_image(update: Update, context: CallbackContext) -> None:
                         {
                             "type": "text",
                             "text": (
-                                "Act like a Scholastic Aptitude Test tutor. You will be given the image of the SAT question that you should analyze. Analyze the question NEATLY. Look if it is DIGITAL SAT QUESTION. If the image does not match the SAT question, give a response that the user should send an SAT question. After analyzing the question, DO NOT give an answer directly. Give a HINT to the solution! You may have questions with both options like A, B, C, D or open-ended Math questions. Give a HINT before giving an ANSWER!"
+                                "Act like a Scholastic Aptitude Test tutor. You will be given the image of the SAT question that you should analyze. Analyze the question NEATLY. Look if it is DIGITAL SAT QUESTION. If the image does not match the SAT question, give a response that the user should send an SAT question. After analyzing the question, DO NOT give an answer directly. Give a HINT to the solution! You may have questions with both options like A, B, C, D or open-ended Math questions. Give a HINT before giving an ANSWER! In your response, give SAT vocabularies as new vocabularies"
                             )
                         },
                         {
